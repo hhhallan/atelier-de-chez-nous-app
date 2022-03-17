@@ -1,0 +1,22 @@
+h1, h2, h3, h4, p {
+
+  &.product-title {
+    font-weight: $regular;
+    font-size: $title;
+  }
+
+  &.recipe-title {
+    font-weight: $semi_bold;
+    font-size: $title;
+  }
+
+  &.recipe-category {
+    font-weight: $semi_bold;
+    font-size: $big_title;
+  }
+
+  &.about-title {
+    font-weight: $semi_bold;
+    font-size: $title;
+  }
+}
